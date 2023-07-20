@@ -1,0 +1,80 @@
+nav{
+    background-color: cadetblue;
+}
+
+ul.menu{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+ul.menu > li > a{
+    display: block;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+header{
+    background: linear-gradient(darkblue, blue);
+    color: aliceblue;
+    
+}
+
+h1{
+    font-size: 45px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+}
+
+.submenu::after{
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent burlywood transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 1rem;
+
+}
+
+.sub:hover .submenu{
+    display: block;
+}
+
+.avt{
+    width: 120px;
+    border-radius: 50%;
+}
+h2.subject{
+    background-color: skyblue;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid blue;
+}
+
+.forum{
+    background-color: bisque;
+    padding: 0.5rem;
+}
+
+.forum:last-child{
+    border: 0 0 10px 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
